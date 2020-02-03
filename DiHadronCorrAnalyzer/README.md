@@ -33,8 +33,8 @@ Configuration fragments can be found in
 
 Parameters in `dihadroncorrelator_cfi.py` are listed below.
 
-|tracks             |generalTracks                                                     |
 |-------------------|------------------------------------------------------------------|
+|tracks             |generalTracks                                                     |
 |primaryVertices    |offlinePrimaryVertices                                            |
 |nTrkOfflineBinEdges|{0, 20, 40, 80, 100, 10000000}                                    |
 |ptBinEdges         |{0.3, 0.6, 0.9, 1.2, 1.5, 1.8, 2.1, 2.4, 2.7, 3} #GeV             |
