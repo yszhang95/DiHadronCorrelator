@@ -21,7 +21,7 @@ corresponding vertices.
 - Associated particles, primary tracks with pT between 0.3-3.0 GeV.
 - Signal, pairs correlated in the same primary vertex
 - Background, pairs correlated by mixing the events. Each trigger particle
-  is correlated with the associated particles in other ten track collectioins,
+  is correlated with the associated particles in other `nMixEvts` track collectioins,
   whose corresponding vertices have similar positions (`dz<2cm`) and Ntrkoffline.
 
 ## Default configuration
@@ -33,13 +33,12 @@ Configuration fragments can be found in
 
 Parameters in `dihadroncorrelator_cfi.py` are listed below.
 
-|`tracks`             | `generalTracks`                                                    |
-|---------------------|--------------------------------------------------------------------|
-|`primaryVertices`    |`offlinePrimaryVertices`                                            |
-|`nTrkOfflineBinEdges`|`{0, 20, 40, 80, 100, 10000000}`                                    |
-|`ptBinEdges`         |`{0.3, 0.6, 0.9, 1.2, 1.5, 1.8, 2.1, 2.4, 2.7, 3} #GeV`             |
-|`zVtxBinEdges`       |`{-15, -13, -11, -9, -7, -5, -3, -1, 1, 3, 5, 7, 9, 11, 13, 15} #cm`|
-|`nMixEvts`           |`10`                                                                |
+|tracks             |generalTracks                                                     |
+|primaryVertices    |offlinePrimaryVertices                                            |
+|nTrkOfflineBinEdges|{0, 20, 40, 80, 100, 10000000}                                    |
+|ptBinEdges         |{0.3, 0.6, 0.9, 1.2, 1.5, 1.8, 2.1, 2.4, 2.7, 3} #GeV             |
+|zVtxBinEdges       |{-15, -13, -11, -9, -7, -5, -3, -1, 1, 3, 5, 7, 9, 11, 13, 15} #cm|
+|nMixEvts           |10                                                                |
 
 
 # myVtxObj
