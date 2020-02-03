@@ -34,6 +34,7 @@ Configuration fragments can be found in
 Parameters in `dihadroncorrelator_cfi.py` are listed below.
 
 |tracks             |generalTracks                                                     |
+|-------------------|------------------------------------------------------------------|
 |primaryVertices    |offlinePrimaryVertices                                            |
 |nTrkOfflineBinEdges|{0, 20, 40, 80, 100, 10000000}                                    |
 |ptBinEdges         |{0.3, 0.6, 0.9, 1.2, 1.5, 1.8, 2.1, 2.4, 2.7, 3} #GeV             |
@@ -45,4 +46,4 @@ Parameters in `dihadroncorrelator_cfi.py` are listed below.
 ## General Descriptions
 It is in 
 `DiHadronCorrelator/DiHadronCorrAnalyzer/plugins/myVtxObj.*`. It defines serverl 
-user-defined classes and template functions. One can check the source code more details.
+user-defined classes and template functions. One can check the source code for more details.
