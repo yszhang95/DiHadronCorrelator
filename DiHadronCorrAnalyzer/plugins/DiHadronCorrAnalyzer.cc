@@ -415,7 +415,7 @@ DiHadronCorrAnalyzer::fillDescriptions(edm::ConfigurationDescriptions& descripti
   edm::ParameterSetDescription desc;
   desc.addUntracked<edm::InputTag>("tracks", edm::InputTag("generalTracks"));
   desc.addUntracked<edm::InputTag>("primaryVertices", edm::InputTag("offlinePrimaryVertices"));
-  desc.add<vector<unsigned>>("nTrkOfflineBinEdges", {0, 20, 40, 80, 120, 10000000});
+  desc.add<vector<unsigned>>("nTrkOfflineBinEdges", {0, 20, 40, 80, 100, 10000000});
   desc.add<vector<double>>("ptBinEdges", {0.3, 0.6, 0.9, 1.2,
       1.5, 1.8, 2.1, 2.4, 2.7, 3.0});
   desc.add<vector<double>>("zVtxBinEdges", { -15, -13, -11, -9, -7, -5, -3, -1,

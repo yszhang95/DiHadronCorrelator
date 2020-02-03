@@ -8,7 +8,7 @@ dihadroncorrelator = cms.EDAnalyzer('DiHadronCorrAnalyzer',
     20,
     40,
     80,
-    120,
+    100,
     10000000
   ),
   ptBinEdges = cms.vdouble(
