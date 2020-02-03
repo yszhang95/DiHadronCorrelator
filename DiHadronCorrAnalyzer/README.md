@@ -33,6 +33,7 @@ Configuration fragments can be found in
 
 Parameters in `dihadroncorrelator_cfi.py` are listed below.
 
+|name               |Default parameters                                                |
 |-------------------|------------------------------------------------------------------|
 |tracks             |generalTracks                                                     |
 |primaryVertices    |offlinePrimaryVertices                                            |
